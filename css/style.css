@@ -1,0 +1,108 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 1270px;
+    margin: 0 auto;
+}
+.header {
+    background: linear-gradient(45deg, #4dbefe, #378fd9);
+}
+.logo {
+    padding-top: 100px;
+}
+h1 {
+    max-width: 600px;
+    color: white;
+    font-size: 37px;
+}
+h1>span {
+    font-size: 59px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-btn>p {
+    color: white;
+    max-width: 330px;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
+    border: none;
+    padding: 20px 25px;
+    font-weight: 900;
+    font-size: 15px;
+    cursor: pointer;
+}
+.skills {
+    margin-bottom: 130px;
+}
+.skills-item {
+    display: flex;
+    justify-content: space-between;
+}
+.skills-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 70px;
+}
+.skill {
+    text-align: center;
+    max-width: 318px;
+}
+.skill>p {
+    font-size: 19px;
+    font-weight: bold;
+}
+figcaption {
+    font-size: 15px;
+    font-weight: 400;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.container-form h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+    margin-bottom: 55px;
+}
+input {
+    width: 340px;
+    height: 45px;
+    border: solid 1px grey;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.form-btn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: yellow;
+    border: none;
+    padding: 20px 25px;
+    font-weight: 900;
+    font-size: 15px;
+    width: 369px;
+    cursor: pointer;
+}
+.footer {
+    background: #154d7a;
+}
+.footer p {
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
