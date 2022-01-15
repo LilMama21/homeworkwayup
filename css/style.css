@@ -98,11 +98,11 @@ input {
 }
 .footer {
     background: #154d7a;
+    padding: 60px 0;
 }
 .footer p {
     text-align: center;
     color: white;
-    padding: 60px 0;
     font-size: 14px;
     font-weight: 400;
 }
